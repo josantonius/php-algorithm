@@ -1,4 +1,4 @@
-<?php declare(strict_types=1);
+<?php
 /**
  * Class with algorithms to solve and display mathematical sequences.
  * 
@@ -8,9 +8,9 @@
  * @author     Josantonius - info@josantonius.com
  * @copyright  Copyright (c) 2017 JST PHP Framework
  * @license    https://opensource.org/licenses/MIT - The MIT License (MIT)
- * @version    1.0.0
+ * @version    1.1.0
  * @link       https://github.com/Josantonius/PHP-Algorithm
- * @since      File available since 1.0.0 - Update: 2017-01-21
+ * @since      File available since 1.0.0 - Update: 2017-01-30
  */
 
 namespace Josantonius\Algorithm;
@@ -37,7 +37,7 @@ class Algorithm {
      *
      * @return string → sequence
      */
-    public static function lookAndSay($sequence = 1, int $maxLines = 15) {
+    public static function lookAndSay($sequence = 1, $maxLines = 15) {
 
         for ($i=0; $i < $maxLines; $i++) { 
             
