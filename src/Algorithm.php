@@ -2,15 +2,11 @@
 /**
  * Class with algorithms to solve and display mathematical sequences.
  * 
- * @category   JST
- * @package    Algorithm
- * @subpackage Algorithm
  * @author     Josantonius - info@josantonius.com
- * @copyright  Copyright (c) 2017 JST PHP Framework
+ * @copyright  Copyright (c) 2017
  * @license    https://opensource.org/licenses/MIT - The MIT License (MIT)
- * @version    1.1.0
  * @link       https://github.com/Josantonius/PHP-Algorithm
- * @since      File available since 1.0.0 - Update: 2017-01-30
+ * @since      1.0.0
  */
 
 namespace Josantonius\Algorithm;
@@ -25,10 +21,10 @@ namespace Josantonius\Algorithm;
 class Algorithm { 
 
     /**
-     * The Conway constant is a mathematical constant linked to the growth rate of 
-     * the number of numbers in a sequence known as Look-and-Say. In this sequence,
-     * each term is obtained by grouping the same numbers as the previous one and
-     * reciting them.
+     * The Conway constant is a mathematical constant linked to the growth
+     * rate of the number of numbers in a sequence known as Look-and-Say. 
+     * In this sequence, each term is obtained by grouping the same numbers as
+     * the previous one and reciting them.
      *
      * @since 1.0.0
      *
