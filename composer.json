@@ -20,8 +20,10 @@
             "role":     "Developer"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable" : true,
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
     "require": {
         "php" : ">=5.6"
     },

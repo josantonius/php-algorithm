@@ -30,6 +30,14 @@ Para instalar PHP Algorithm library, simplemente escribe:
 
     $ composer require Josantonius/Algorithm
 
+El comando anterior solamente instalará los archivos necesarios, si prefieres descargar todo el código, incluyendo tests, puedes utilizar:
+
+    $ composer require Josantonius/Algorithm --prefer-source
+
+También puedes clonar el repositorio completo con Git:
+
+	$ git clone https://github.com/Josantonius/PHP-Algorithm.git
+
 ### Requisitos
 
 Esta ĺibrería es soportada por versiones de PHP 5.6 o superiores y es compatible con versiones de HHVM 3.0 o superiores.
