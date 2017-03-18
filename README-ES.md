@@ -134,6 +134,6 @@ Este proyecto está licenciado bajo **licencia MIT**. Consulta el archivo [LICEN
 
 2017 Josantonius, [josantonius.com](https://josantonius.com/)
 
-Si te ha resultado útil, házmelo saber :smirk: 
+Si te ha resultado útil, házmelo saber :wink:
 
 Puedes contactarme en [Twitter](https://twitter.com/Josantonius) o a través de mi [correo electrónico](mailto:hello@josantonius.com).
