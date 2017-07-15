@@ -21,9 +21,9 @@ Class with algorithms to solve and display mathematical sequences.
 
 ---
 
-<p align="center">
+<p align="center" style="font-size:20px;">
+  </br>
   Take a look at the code
-  
   <a href="https://youtu.be/eU1hSQxo-R4" title="Take a look at the code">
   	<img src="https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/resources/youtube-thumbnail.jpg">
   </a>
