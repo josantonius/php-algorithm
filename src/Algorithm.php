@@ -35,7 +35,7 @@ class Algorithm {
 
         for ($i=0; $i < $maxLines; $i++) { 
             
-            print $sequence . "<br>";
+            print $sequence . '<br>';
 
             $counter  = 1;
             $sequence = str_split($sequence);
