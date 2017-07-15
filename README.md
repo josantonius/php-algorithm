@@ -27,7 +27,6 @@ Class with algorithms to solve and display mathematical sequences.
   	<img src="https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/resources/youtube-thumbnail.jpg">
   </a>
 </p>
-
 ---
 
 ### Installation
