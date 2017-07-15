@@ -1,4 +1,4 @@
-# PHP Algorithm library
+# PHP Algorithm class
 
 [![Latest Stable Version](https://poser.pugx.org/josantonius/algorithm/v/stable)](https://packagist.org/packages/josantonius/algorithm) [![Total Downloads](https://poser.pugx.org/josantonius/algorithm/downloads)](https://packagist.org/packages/josantonius/algorithm) [![Latest Unstable Version](https://poser.pugx.org/josantonius/algorithm/v/unstable)](https://packagist.org/packages/josantonius/algorithm) [![License](https://poser.pugx.org/josantonius/algorithm/license)](https://packagist.org/packages/josantonius/algorithm)
 
@@ -14,7 +14,6 @@ Class with algorithms to solve and display mathematical sequences.
 - [Available Methods](#available-methods)
 - [Usage](#usage)
 - [Tests](#tests)
-- [Exception Handler](#exception-handler)
 - [Contribute](#contribute)
 - [Repository](#repository)
 - [Licensing](#licensing)
@@ -22,11 +21,12 @@ Class with algorithms to solve and display mathematical sequences.
 
 ---
 
+
 ### Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
-To install PHP Algorithm library, simply:
+To install PHP Algorithm class, simply:
 
     $ composer require Josantonius/Algorithm
 
@@ -40,7 +40,7 @@ Or you can also clone the complete repository with Git:
 
 ### Requirements
 
-This library is supported by PHP versions 5.6 or higher and is compatible with HHVM versions 3.0 or higher.
+This class is supported by PHP versions 5.6 or higher and is compatible with HHVM versions 3.0 or higher.
 
 ### Quick Start and Examples
 
@@ -53,14 +53,14 @@ use Josantonius\Algorithm\Algorithm;
 ```
 ### Available Methods
 
-Available methods in this library:
+Available methods in this class:
 
 ```php
 Algorithm::lookAndSay();
 ```
 ### Usage
 
-Example of use for this library:
+Example of use for this class:
 
 ```php
 <?php
@@ -112,16 +112,13 @@ $loader->addPsr4('Josantonius\\Algorithm\\Tests\\', __DIR__ . '/vendor/josantoni
 use Josantonius\Algorithm\Tests\AlgorithmTest;
 
 ```
-Available test methods in this library:
+Available test methods in this class:
 
 ```php
 AlgorithmTest::testLookAndSay();
 AlgorithmTest::testLookAndSayCustom();
 ```
 
-### Exception Handler
-
-This library uses [exception handler](src/Exception) that you can customize.
 ### Contribute
 1. Check for open issues or open a new issue to start a discussion around a bug or feature.
 1. Fork the repository on GitHub to start making your changes.

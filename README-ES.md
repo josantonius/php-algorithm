@@ -1,4 +1,4 @@
-# PHP Algorithm library
+# PHP Algorithm class
 
 [![Latest Stable Version](https://poser.pugx.org/josantonius/algorithm/v/stable)](https://packagist.org/packages/josantonius/algorithm) [![Total Downloads](https://poser.pugx.org/josantonius/algorithm/downloads)](https://packagist.org/packages/josantonius/algorithm) [![Latest Unstable Version](https://poser.pugx.org/josantonius/algorithm/v/unstable)](https://packagist.org/packages/josantonius/algorithm) [![License](https://poser.pugx.org/josantonius/algorithm/license)](https://packagist.org/packages/josantonius/algorithm)
 
@@ -14,7 +14,6 @@ Clase con algoritmos para resolver y mostrar secuencias matemáticas.
 - [Métodos disponibles](#métodos-disponibles)
 - [Uso](#uso)
 - [Tests](#tests)
-- [Manejador de excepciones](#manejador-de-excepciones)
 - [Contribuir](#contribuir)
 - [Repositorio](#repositorio)
 - [Licencia](#licencia)
@@ -40,7 +39,7 @@ También puedes clonar el repositorio completo con Git:
 
 ### Requisitos
 
-Esta ĺibrería es soportada por versiones de PHP 5.6 o superiores y es compatible con versiones de HHVM 3.0 o superiores.
+Esta clase es soportada por versiones de PHP 5.6 o superiores y es compatible con versiones de HHVM 3.0 o superiores.
 
 ### Cómo empezar y ejemplos
 
@@ -118,9 +117,6 @@ AlgorithmTest::testLookAndSay();
 AlgorithmTest::testLookAndSayCustom();
 ```
 
-### Manejador de excepciones
-
-Esta librería utiliza [control de excepciones](src/Exception) que puedes personalizar a tu gusto.
 ### Contribuir
 1. Comprobar si hay incidencias abiertas o abrir una nueva para iniciar una discusión en torno a un fallo o función.
 1. Bifurca la rama del repositorio en GitHub para iniciar la operación de ajuste.

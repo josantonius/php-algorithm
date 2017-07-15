@@ -11,8 +11,6 @@
 
 namespace Josantonius\Algorithm;
 
-# use Josantonius\Algorithm\Exception\AlgorithmException;
-
 /**
  * Algorithm handler.
  *
