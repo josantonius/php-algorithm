@@ -22,12 +22,14 @@ Class with algorithms to solve and display mathematical sequences.
 ---
 
 <p align="center" style="font-size: 20px;">
-  Take a look at the code
-  </br>
+  <<strong>Take a look at the code</strong>
+  <br/>
   <a href="https://youtu.be/eU1hSQxo-R4" title="Take a look at the code">
   	<img src="https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/resources/youtube-thumbnail.jpg">
   </a>
 </p>
+
+---
 
 ### Installation
 
