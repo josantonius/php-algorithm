@@ -20,6 +20,7 @@ Class with algorithms to solve and display mathematical sequences.
 - [Copyright](#copyright)
 
 ---
+
 <p align="center"><strong>Take a look at the code</strong></p>
 
 <p align="center">
@@ -27,6 +28,7 @@ Class with algorithms to solve and display mathematical sequences.
   	<img src="https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/resources/youtube-thumbnail.jpg">
   </a>
 </p>
+
 ---
 
 ### Installation
