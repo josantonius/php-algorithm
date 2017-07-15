@@ -21,7 +21,7 @@ Class with algorithms to solve and display mathematical sequences.
 
 ---
 
-<p align="center" style="font-size: 19px;">
+<p align="center" style="font-size: 20px;">
   Take a look at the code
   </br>
   <a href="https://youtu.be/eU1hSQxo-R4" title="Take a look at the code">
