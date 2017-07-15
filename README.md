@@ -20,10 +20,9 @@ Class with algorithms to solve and display mathematical sequences.
 - [Copyright](#copyright)
 
 ---
+<p align="center"><strong>Take a look at the code</strong></p>
 
-<p align="center" style="font-size: 20px;">
-  <<strong>Take a look at the code</strong>
-  <br/>
+<p align="center">
   <a href="https://youtu.be/eU1hSQxo-R4" title="Take a look at the code">
   	<img src="https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/resources/youtube-thumbnail.jpg">
   </a>
