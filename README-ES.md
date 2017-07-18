@@ -53,7 +53,7 @@ Esta clase es soportada por versiones de PHP 5.6 o superiores y es compatible co
 
 ### Cómo empezar y ejemplos
 
-Para utilizar esta librería, simplemente:
+Para utilizar esta clase, simplemente:
 
 ```php
 require __DIR__ . '/vendor/autoload.php';
@@ -62,14 +62,14 @@ use Josantonius\Algorithm\Algorithm;
 ```
 ### Métodos disponibles
 
-Métodos disponibles en esta librería:
+Métodos disponibles en esta clase:
 
 ```php
 Algorithm::lookAndSay();
 ```
 ### Uso
 
-Ejemplo de uso para esta librería:
+Ejemplo de uso para esta clase:
 
 ```php
 <?php
@@ -120,7 +120,7 @@ $loader->addPsr4('Josantonius\\Algorithm\\Tests\\', __DIR__ . '/vendor/josantoni
 
 use Josantonius\Algorithm\Tests\AlgorithmTest;
 ```
-Métodos de prueba disponibles en esta librería:
+Métodos de prueba disponibles en esta clase:
 
 ```php
 AlgorithmTest::testLookAndSay();
