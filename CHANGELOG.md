@@ -4,6 +4,8 @@
 
 * Unit tests supported by `PHPUnit` were added.
 
+* The repository was synchronized with Travis CI to implement continuous integration.
+
 * Added `Algorithm/src/bootstrap.php` file
 
 * Added `Algorithm/tests/bootstrap.php` file.
