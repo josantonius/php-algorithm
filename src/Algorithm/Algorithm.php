@@ -55,9 +55,9 @@ class Algorithm {
 
             foreach ($sequence as $key => $value) {
 
-                $nextValue = $sequence[$key + 1] ?: null;
+                $nextVal = isset($sequence[$key+1]) ? $sequence[$key+ 1] : 0;
 
-                if ($value === $nextValue) {
+                if ($value === $nextVal) {
 
                     $counter++;
                     continue;
