@@ -55,7 +55,7 @@ class Algorithm {
 
             foreach ($sequence as $key => $value) {
 
-                $nextValue = $sequence[$key + 1] ?? null;
+                $nextValue = $sequence[$key + 1] ?: null;
 
                 if ($value === $nextValue) {
 
