@@ -1,6 +1,7 @@
 # PHP Algorithm class
 
-[![Latest Stable Version](https://poser.pugx.org/josantonius/algorithm/v/stable)](https://packagist.org/packages/josantonius/algorithm) [![Total Downloads](https://poser.pugx.org/josantonius/algorithm/downloads)](https://packagist.org/packages/josantonius/algorithm) [![Latest Unstable Version](https://poser.pugx.org/josantonius/algorithm/v/unstable)](https://packagist.org/packages/josantonius/algorithm) [![License](https://poser.pugx.org/josantonius/algorithm/license)](https://packagist.org/packages/josantonius/algorithm)
+[![Latest Stable Version](https://poser.pugx.org/josantonius/algorithm/v/stable)](https://packagist.org/packages/josantonius/algorithm) [![Total Downloads](https://poser.pugx.org/josantonius/algorithm/downloads)](https://packagist.org/packages/josantonius/algorithm) [![Latest Unstable Version](https://poser.pugx.org/josantonius/algorithm/v/unstable)](https://packagist.org/packages/josantonius/algorithm) [![License](https://poser.pugx.org/josantonius/algorithm/license)](https://packagist.org/packages/josantonius/algorithm) [![Build Status](http://img.shields.io/travis/josantonius/php-algorithm.svg)](http://travis-ci.org/Josantonius/PHP-Algorithm)
+
 
 [Versión en español](README-ES.md)
 
@@ -110,25 +111,16 @@ Algorithm::lookAndSay(22, 5);
 
 ### Tests 
 
-To use the [test](tests) class, simply:
+To run [tests](tests/Algorithm) simply:
 
-```php
-<?php
-$loader = require __DIR__ . '/vendor/autoload.php';
+    $ git clone https://github.com/Josantonius/PHP-Algorithm.git
+    
+    $ cd PHP-Algorithm
 
-$loader->addPsr4('Josantonius\\Algorithm\\Tests\\', __DIR__ . '/vendor/josantonius/algorithm/tests');
-
-use Josantonius\Algorithm\Tests\AlgorithmTest;
-
-```
-Available test methods in this class:
-
-```php
-AlgorithmTest::testLookAndSay();
-AlgorithmTest::testLookAndSayCustom();
-```
+    $ phpunit
 
 ### Contribute
+
 1. Check for open issues or open a new issue to start a discussion around a bug or feature.
 1. Fork the repository on GitHub to start making your changes.
 1. Write one or more tests for the new feature or that expose the bug.

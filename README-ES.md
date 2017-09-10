@@ -1,6 +1,6 @@
 # PHP Algorithm class
 
-[![Latest Stable Version](https://poser.pugx.org/josantonius/algorithm/v/stable)](https://packagist.org/packages/josantonius/algorithm) [![Total Downloads](https://poser.pugx.org/josantonius/algorithm/downloads)](https://packagist.org/packages/josantonius/algorithm) [![Latest Unstable Version](https://poser.pugx.org/josantonius/algorithm/v/unstable)](https://packagist.org/packages/josantonius/algorithm) [![License](https://poser.pugx.org/josantonius/algorithm/license)](https://packagist.org/packages/josantonius/algorithm)
+[![Latest Stable Version](https://poser.pugx.org/josantonius/algorithm/v/stable)](https://packagist.org/packages/josantonius/algorithm) [![Total Downloads](https://poser.pugx.org/josantonius/algorithm/downloads)](https://packagist.org/packages/josantonius/algorithm) [![Latest Unstable Version](https://poser.pugx.org/josantonius/algorithm/v/unstable)](https://packagist.org/packages/josantonius/algorithm) [![License](https://poser.pugx.org/josantonius/algorithm/license)](https://packagist.org/packages/josantonius/algorithm) [![Build Status](http://img.shields.io/travis/josantonius/php-algorithm.svg)](http://travis-ci.org/Josantonius/PHP-Algorithm)
 
 [English version](README.md)
 
@@ -110,24 +110,16 @@ Algorithm::lookAndSay(22, 5);
 
 ### Tests 
 
-Para utilizar la clase de [pruebas](tests), simplemente:
+Para ejecutar las [pruebas](tests/Algorithm) simplemente:
 
-```php
-<?php
-$loader = require __DIR__ . '/vendor/autoload.php';
+    $ git clone https://github.com/Josantonius/PHP-Algorithm.git
+    
+    $ cd PHP-Algorithm
 
-$loader->addPsr4('Josantonius\\Algorithm\\Tests\\', __DIR__ . '/vendor/josantonius/algorithm/tests');
-
-use Josantonius\Algorithm\Tests\AlgorithmTest;
-```
-Métodos de prueba disponibles en esta clase:
-
-```php
-AlgorithmTest::testLookAndSay();
-AlgorithmTest::testLookAndSayCustom();
-```
+    $ phpunit
 
 ### Contribuir
+
 1. Comprobar si hay incidencias abiertas o abrir una nueva para iniciar una discusión en torno a un fallo o función.
 1. Bifurca la rama del repositorio en GitHub para iniciar la operación de ajuste.
 1. Escribe una o más pruebas para la nueva característica o expón el error.
