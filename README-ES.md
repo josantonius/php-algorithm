@@ -15,6 +15,7 @@ Clase con algoritmos para resolver y mostrar secuencias matemáticas.
 - [Métodos disponibles](#métodos-disponibles)
 - [Uso](#uso)
 - [Tests](#tests)
+- [Tareas pendientes](#-tareas-pendientes)
 - [Contribuir](#contribuir)
 - [Repositorio](#repositorio)
 - [Licencia](#licencia)
@@ -108,6 +109,10 @@ Para ejecutar las [pruebas](tests/Algorithm/Test) simplemente:
     $ cd PHP-Algorithm
 
     $ phpunit
+
+## ☑ Tareas pendientes
+
+- [x] Completar tests
 
 ### Contribuir
 

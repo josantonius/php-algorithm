@@ -15,6 +15,7 @@ Class with algorithms to solve and display mathematical sequences.
 - [Available Methods](#available-methods)
 - [Usage](#usage)
 - [Tests](#tests)
+- [TODO](#-todo)
 - [Contribute](#contribute)
 - [Repository](#repository)
 - [License](#license)
@@ -108,6 +109,10 @@ To run [tests](tests/Algorithm/Test) simply:
     $ cd PHP-Algorithm
 
     $ phpunit
+
+## ☑ TODO
+
+- [x] Expand tests
 
 ### Contribute
 
