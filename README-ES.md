@@ -113,7 +113,7 @@ Para ejecutar las [pruebas](tests/Algorithm/Test) simplemente:
 ### ☑ Tareas pendientes
 
 - [x] Completar tests
-- [ ] Completar archivos README
+- [x] Completar archivos README
 
 ### Contribuir
 

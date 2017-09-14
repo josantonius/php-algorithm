@@ -113,7 +113,7 @@ To run [tests](tests/Algorithm/Test) simply:
 ### ☑ TODO
 
 - [x] Create tests
-- [ ] Improve documentation
+- [x] Improve documentation
 
 ### Contribute
 
