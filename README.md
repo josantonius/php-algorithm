@@ -110,9 +110,10 @@ To run [tests](tests/Algorithm/Test) simply:
 
     $ phpunit
 
-## ☑ TODO
+### ☑ TODO
 
-- [x] Expand tests
+- [x] Create tests
+- [ ] Improve documentation
 
 ### Contribute
 

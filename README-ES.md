@@ -110,9 +110,10 @@ Para ejecutar las [pruebas](tests/Algorithm/Test) simplemente:
 
     $ phpunit
 
-## ☑ Tareas pendientes
+### ☑ Tareas pendientes
 
 - [x] Completar tests
+- [ ] Completar archivos README
 
 ### Contribuir
 
