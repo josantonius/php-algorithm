@@ -101,7 +101,7 @@ Algorithm::lookAndSay(22, 5);
 
 ### Tests 
 
-Para ejecutar las [pruebas](tests/Algorithm/test) simplemente:
+Para ejecutar las [pruebas](tests/Algorithm/Test) simplemente:
 
     $ git clone https://github.com/Josantonius/PHP-Algorithm.git
     
