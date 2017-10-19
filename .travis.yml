@@ -21,9 +21,8 @@ php:
 matrix:
   fast_finish: true
   include:
-    # Run PHPCS against WPCS. I just picked to run it against 7.0.
     - php: 7.0
-      env: PHP_TRAVISCI=phpcs
+      env: PHPCS=PSR2
 
   allow_failures:
     - php: nightly
@@ -36,6 +35,6 @@ before_script:
 script:
   - phpunit
   - |
-    if [[ "$PHP_TRAVISCI" == "phpcs" ]] ; then
-      phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php')
+    if [[ "$PHPCS" ]] ; then
+      ./vendor/bin/phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php')
     fi
