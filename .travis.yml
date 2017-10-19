@@ -4,6 +4,15 @@ sudo: false
 
 dist: trusty
 
+branches:
+  only:
+    - master
+
+cache:
+  apt: true
+  - composer
+  - $HOME/.composer/cache
+
 git:
   depth: 5
 
@@ -16,12 +25,33 @@ php:
 
 matrix:
   fast_finish: true
+  include:
+    # Run PHPCS against WPCS. I just picked to run it against 7.0.
+    - php: 7.0
+      env: PHP_TRAVISCI=phpcs
+      addons:
+        apt:
+          packages:
+            - libxml2-utils
+
+    # Run against HHVM and PHP nightly.
+    - php: hhvm
+      sudo: required
+      dist: trusty
+      group: edge
+      env: PHP_TRAVISCI=phpcs
+
   allow_failures:
     - php: nightly
 
 before_script:
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
   - composer self-update
   - composer install
 
 script:
-  - composer test
+  - phpunit
+  - |
+    if [[ "$PHP_TRAVISCI" == "phpcs" ]] ; then
+      phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php')
+    fi

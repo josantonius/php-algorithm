@@ -10,6 +10,7 @@ phpunit.xml.dist export-ignore
 CONDUCT.md export-ignore
 contributors.txt export-ignore
 README.md export-ignore
+phpcs.ruleset.xml export-ignore
 README-ES.md export-ignore
 .editorconfig export-ignore
 composer.lock export-ignore

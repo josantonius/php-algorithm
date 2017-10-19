@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit6e24bcdb5865f6af2b4f76ae90f46171
+class ComposerStaticInit875ca4200166414aefd8764b458ff6aa
 {
     public static $prefixLengthsPsr4 = array (
         'p' => 
@@ -47,7 +47,8 @@ class ComposerStaticInit6e24bcdb5865f6af2b4f76ae90f46171
         ),
         'Josantonius\\Algorithm\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/Algorithm',
+            0 => __DIR__ . '/../..' . '/src',
+            1 => __DIR__ . '/../..' . '/tests',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
@@ -540,10 +541,10 @@ class ComposerStaticInit6e24bcdb5865f6af2b4f76ae90f46171
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit6e24bcdb5865f6af2b4f76ae90f46171::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit6e24bcdb5865f6af2b4f76ae90f46171::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit6e24bcdb5865f6af2b4f76ae90f46171::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit6e24bcdb5865f6af2b4f76ae90f46171::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit875ca4200166414aefd8764b458ff6aa::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit875ca4200166414aefd8764b458ff6aa::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit875ca4200166414aefd8764b458ff6aa::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit875ca4200166414aefd8764b458ff6aa::$classMap;
 
         }, null, ClassLoader::class);
     }

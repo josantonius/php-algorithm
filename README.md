@@ -2,7 +2,6 @@
 
 [![Latest Stable Version](https://poser.pugx.org/josantonius/algorithm/v/stable)](https://packagist.org/packages/josantonius/algorithm) [![Total Downloads](https://poser.pugx.org/josantonius/algorithm/downloads)](https://packagist.org/packages/josantonius/algorithm) [![Latest Unstable Version](https://poser.pugx.org/josantonius/algorithm/v/unstable)](https://packagist.org/packages/josantonius/algorithm) [![License](https://poser.pugx.org/josantonius/algorithm/license)](https://packagist.org/packages/josantonius/algorithm) [![Travis](https://travis-ci.org/Josantonius/PHP-Algorithm.svg)](https://travis-ci.org/Josantonius/PHP-Algorithm)
 
-
 [Versión en español](README-ES.md)
 
 Class with algorithms to solve and display mathematical sequences.
@@ -57,8 +56,18 @@ use Josantonius\Algorithm\Algorithm;
 Available methods in this class:
 
 ```php
-Algorithm::lookAndSay();
+Algorithm::lookAndSay($lastSequence, $maxLines);
 ```
+
+Print `Look-and-Say` sequence.
+
+| Atttribute | Description | Type | Required | Default
+| --- | --- | --- | --- | --- |
+| $lastSequence | Initial value to start the sequence | int | No | 1 |
+| $maxLines | Maximum lines number to show | int | No | 15 |
+
+**# Return** (string) → Sequence.
+
 ### Usage
 
 Example of use for this class:
@@ -102,13 +111,21 @@ Algorithm::lookAndSay(22, 5);
 
 ### Tests 
 
-To run [tests](tests/Algorithm/Test) simply:
+To run [tests](tests) simply:
 
     $ git clone https://github.com/Josantonius/PHP-Algorithm.git
     
     $ cd PHP-Algorithm
 
-    $ phpunit
+    $ composer install
+
+Perform unit tests with PHPUnit:
+
+    $ ./vendor/bin/phpunit
+
+Perform PSR2 code standard tests with PHPCS.:
+
+    $ ./vendor/bin/phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php')
 
 ### ☑ TODO
 

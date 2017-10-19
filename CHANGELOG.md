@@ -1,5 +1,23 @@
 # CHANGELOG
 
+## 1.1.4 - 2017-10-19
+
+* Implemented `PSR-4 autoloader standard` from all library files.
+
+* Implemented `PSR-2 coding standard` from all library PHP files.
+
+* Implemented PHPCS to ensure that PHP code complies with PSR2 code standards.
+
+* Changed `Josantonius\Algorithm\Test\AlgorithmTest` class to `Josantonius\Algorithm\AlgorithmTest` class.
+
+* Added `Algorithm/phpcs.ruleset.xml` file.
+
+* Deleted `Algorithm/src/bootstrap.php` file.
+
+* Deleted `Algorithm/tests/bootstrap.php` file.
+
+* Deleted `Algorithm/vendor` folder.
+
 ## 1.1.3 - 2017-09-10
 
 * Unit tests supported by `PHPUnit` were added.

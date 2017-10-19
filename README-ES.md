@@ -57,8 +57,18 @@ use Josantonius\Algorithm\Algorithm;
 Métodos disponibles en esta clase:
 
 ```php
-Algorithm::lookAndSay();
+Algorithm::lookAndSay($lastSequence, $maxLines);
 ```
+
+Print `Look-and-Say` sequence.
+
+| Atributo | Descripción | Tipo | Requerido | Predeterminado
+| --- | --- | --- | --- | --- |
+| $lastSequence | Valor inicial para iniciar la secuencia | int | No | 1 |
+| $maxLines | Número máximo de líneas a mostrar | int | No | 15 |
+
+**# Return** (string) → Secuencia.
+
 ### Uso
 
 Ejemplo de uso para esta clase:
@@ -102,13 +112,21 @@ Algorithm::lookAndSay(22, 5);
 
 ### Tests 
 
-Para ejecutar las [pruebas](tests/Algorithm/Test) simplemente:
+Para ejecutar las [pruebas](tests) simplemente:
 
     $ git clone https://github.com/Josantonius/PHP-Algorithm.git
     
     $ cd PHP-Algorithm
 
-    $ phpunit
+    $ composer install
+
+Realizar pruebas unitarias con PHPUnit:
+
+    $ ./vendor/bin/phpunit
+
+Realizar pruebas de estándares de código PSR2 con PHPCS:
+
+    $ ./vendor/bin/phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php')
 
 ### ☑ Tareas pendientes
 
