@@ -120,13 +120,17 @@ Para ejecutar las [pruebas](tests) simplemente:
 
     $ composer install
 
-Realizar pruebas unitarias con PHPUnit:
+Ejecutar pruebas unitarias con PHPUnit:
 
-    $ ./vendor/bin/phpunit
+    $ composer phpunit
 
-Realizar pruebas de estándares de código PSR2 con PHPCS:
+Ejecutar pruebas de estándares de código PSR2 con PHPCS:
 
-    $ ./vendor/bin/phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php')
+    $ composer phpcs
+
+Ejecutar todas las pruebas anteriores:
+
+    $ composer tests
 
 ### ☑ Tareas pendientes
 

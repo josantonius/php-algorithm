@@ -51,5 +51,10 @@
         "branch-alias": {
             "dev-master": "1.0-dev"
         }
+    },
+    "scripts": {
+        "phpunit": "vendor/bin/phpunit --colors=always;",
+        "phpcs": "vendor/bin/phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php');",
+        "tests": "clear && vendor/bin/phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php') && vendor/bin/phpunit --colors=always;"
     }
 }

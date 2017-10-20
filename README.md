@@ -111,7 +111,7 @@ Algorithm::lookAndSay(22, 5);
 
 ### Tests 
 
-To run [tests](tests) simply:
+To run [tests](tests) you just need [composer](http://getcomposer.org/download/) and to execute the following:
 
     $ git clone https://github.com/Josantonius/PHP-Algorithm.git
     
@@ -119,13 +119,17 @@ To run [tests](tests) simply:
 
     $ composer install
 
-Perform unit tests with PHPUnit:
+Run unit tests with [PHPUnit](https://phpunit.de/):
 
-    $ ./vendor/bin/phpunit
+    $ composer phpunit
 
-Perform PSR2 code standard tests with PHPCS.:
+Run PSR2 code standard tests with [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer):
 
-    $ ./vendor/bin/phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php')
+    $ composer phpcs
+
+Run all previous tests:
+
+    $ composer tests
 
 ### ☑ TODO
 
