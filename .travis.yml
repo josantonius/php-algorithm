@@ -29,10 +29,8 @@ matrix:
 
 before_script:
   - export PATH="./vendor/bin:$PATH"
-  - curl -s http://getcomposer.org/installer | php
-  - php composer.phar install -n
-  - composer self-update
-  - composer install
+  - travis_retry composer self-update
+  - travis_retry composer install --no-interaction --prefer-source --dev
 
 script:
   - phpunit
@@ -40,3 +38,7 @@ script:
     if [[ "$PHPCS" ]] ; then
       phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php')
     fi
+    phpunit --coverage-clover=coverage.xml
+
+after_success:
+ - bash <(curl -s https://codecov.io/bash)
