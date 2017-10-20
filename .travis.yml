@@ -41,4 +41,4 @@ script:
     fi
   
 after_script:
-  - php vendor/bin/codacycoverage clover path/to/clover.xml
+  - php vendor/bin/codacycoverage phpunit phpunit.xml.dist
