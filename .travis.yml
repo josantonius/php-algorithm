@@ -28,17 +28,18 @@ matrix:
     - php: nightly
 
 before_script:
+  - PATH="./vendor/bin:$PATH"
   - curl -s http://getcomposer.org/installer | php
   - php composer.phar install -n
   - composer self-update
   - composer install
 
 script:
-  - php vendor/bin/phpunit
+  - phpunit
   - |
     if [[ "$PHPCS" ]] ; then
-      vendor/bin/phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php')
+      phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php')
     fi
   
 after_script:
-  - php vendor/bin/codacycoverage phpunit phpunit.xml.dist
+  - codacycoverage phpunit tests

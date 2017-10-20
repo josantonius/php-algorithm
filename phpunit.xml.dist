@@ -10,7 +10,10 @@
          stopOnFailure="false"
          syntaxCheck="false"
          bootstrap="vendor/autoload.php">
-
+    <source type="phpunit">
+        <coverage path="coverage" />
+        <filter directory="tests" />
+    </source>
     <testsuites>
         <testsuite name="Test Suite">
             <directory>tests</directory>
