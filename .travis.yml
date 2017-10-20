@@ -28,13 +28,17 @@ matrix:
     - php: nightly
 
 before_script:
-  - export PATH="$HOME/.composer/vendor/bin:$PATH"
+  - curl -s http://getcomposer.org/installer | php
+  - php composer.phar install -n
   - composer self-update
   - composer install
 
 script:
-  - phpunit
+  - php vendor/bin/phpunit
   - |
     if [[ "$PHPCS" ]] ; then
-      ./vendor/bin/phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php')
+      vendor/bin/phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php')
     fi
+  
+after_script:
+  - php vendor/bin/codacycoverage clover path/to/clover.xml
