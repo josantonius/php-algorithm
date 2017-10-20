@@ -10,6 +10,8 @@
 
 * Implemented `Codacy` to automates code reviews and monitors code quality over time.
 
+* Implemented `Codecov` to coverage reports.
+
 * Changed `Josantonius\Algorithm\Test\AlgorithmTest` class to `Josantonius\Algorithm\AlgorithmTest` class.
 
 * Added `Algorithm/phpcs.ruleset.xml` file.
