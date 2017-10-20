@@ -6,7 +6,9 @@
 
 * Implemented `PSR-2 coding standard` from all library PHP files.
 
-* Implemented PHPCS to ensure that PHP code complies with PSR2 code standards.
+* Implemented `PHPCS` to ensure that PHP code complies with `PSR2` code standards.
+
+* Implemented `Codacy` to automates code reviews and monitors code quality over time.
 
 * Changed `Josantonius\Algorithm\Test\AlgorithmTest` class to `Josantonius\Algorithm\AlgorithmTest` class.
 
