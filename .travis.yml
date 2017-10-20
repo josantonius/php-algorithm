@@ -28,7 +28,7 @@ matrix:
     - php: nightly
 
 before_script:
-  - PATH="./vendor/bin:$PATH"
+  - export PATH="./vendor/bin:$PATH"
   - curl -s http://getcomposer.org/installer | php
   - php composer.phar install -n
   - composer self-update
@@ -40,6 +40,3 @@ script:
     if [[ "$PHPCS" ]] ; then
       phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php')
     fi
-  
-after_script:
-  - codacycoverage phpunit tests
