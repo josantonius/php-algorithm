@@ -70,11 +70,11 @@ use Josantonius\Algorithm\Algorithm;
 
 Métodos disponibles en esta clase:
 
+`Print "Look-and-Say" sequence.`
+
 ```php
 Algorithm::lookAndSay($lastSequence, $maxLines);
 ```
-
-`Print "Look-and-Say" sequence.`
 
 | Atributo | Descripción | Tipo | Requerido | Predeterminado
 | --- | --- | --- | --- | --- |
