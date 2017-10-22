@@ -81,7 +81,7 @@ Algorithm::lookAndSay($lastSequence, $maxLines);
 | $lastSequence | Valor inicial para iniciar la secuencia | int | No | 1 |
 | $maxLines | Número máximo de líneas a mostrar | int | No | 15 |
 
-`**# Return**` (string) → Secuencia.
+**# Return** (string) → Secuencia.
 
 ### Uso
 
