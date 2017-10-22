@@ -74,7 +74,7 @@ Available methods in this class:
 Algorithm::lookAndSay($lastSequence, $maxLines);
 ```
 
-Print "Look-and-Say" sequence.
+`Print "Look-and-Say" sequence.`
 
 | Atttribute | Description | Type | Required | Default
 | --- | --- | --- | --- | --- |
