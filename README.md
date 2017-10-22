@@ -44,7 +44,7 @@ You can also clone the complete repository with Git:
 
 Or install it manually:
 
-**--** Download [Algorithm.php](https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php):
+**·** Download [Algorithm.php](https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php):
 
     $ wget https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php
 
@@ -70,7 +70,7 @@ use Josantonius\Algorithm\Algorithm;
 
 Available methods in this class:
 
--- `Print "Look-and-Say" sequence.`
+**·** `Print "Look-and-Say" sequence.`
 
 ```php
 Algorithm::lookAndSay($lastSequence, $maxLines);
