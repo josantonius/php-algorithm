@@ -10,8 +10,8 @@ Class with algorithms to solve and display mathematical sequences.
 
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Quick Start and Examples](#quick-start-and-examples)
 - [Available Methods](#available-methods)
+- [Quick Start](#quick-start)
 - [Usage](#usage)
 - [Tests](#tests)
 - [TODO](#-todo)
@@ -44,11 +44,28 @@ You can also clone the complete repository with Git:
 
 Or install it manually:
 
-**-** Download [Algorithm.php](https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php):
+[Download Algorithm.php](https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php):
 
     $ wget https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php
 
-### Quick Start and Examples
+### Available Methods
+
+Available methods in this class:
+
+`Print "Look-and-Say" sequence:`
+
+```php
+Algorithm::lookAndSay($lastSequence, $maxLines);
+```
+
+| Atttribute | Description | Type | Required | Default
+| --- | --- | --- | --- | --- |
+| $lastSequence | Initial value to start the sequence | int | No | 1 |
+| $maxLines | Maximum lines number to show | int | No | 15 |
+
+**# Return** (string) → Sequence.
+
+### Quick Start
 
 To use this class with `Composer`:
 
@@ -66,33 +83,9 @@ require_once __DIR__ . '/Algorithm.php';
 use Josantonius\Algorithm\Algorithm;
 ```
 
-### Available Methods
-
-Available methods in this class:
-
-`Print "Look-and-Say" sequence.`:
-
-```php
-Algorithm::lookAndSay($lastSequence, $maxLines);
-```
-
-| Atttribute | Description | Type | Required | Default
-| --- | --- | --- | --- | --- |
-| $lastSequence | Initial value to start the sequence | int | No | 1 |
-| $maxLines | Maximum lines number to show | int | No | 15 |
-
-**# Return** (string) → Sequence.
-
 ### Usage
 
 Example of use for this class:
-
-```php
-<?php
-require __DIR__ . '/vendor/autoload.php';
-
-use Josantonius\Algorithm\Algorithm;
-```
 
 ```php
 echo Algorithm::lookAndSay();
