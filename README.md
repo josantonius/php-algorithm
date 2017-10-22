@@ -92,7 +92,9 @@ Example of use for this class:
 require __DIR__ . '/vendor/autoload.php';
 
 use Josantonius\Algorithm\Algorithm;
+```
 
+```php
 echo Algorithm::lookAndSay();
 
 /*
@@ -112,7 +114,9 @@ echo Algorithm::lookAndSay();
 11131221131211131231121113112221121321132132211331222113112211
 311311222113111231131112132112311321322112111312211312111322212311322113212221
 */
+```
 
+```php
 echo Algorithm::lookAndSay(22, 5);
 
 /*
