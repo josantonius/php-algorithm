@@ -1,6 +1,6 @@
 # PHP Algorithm class
 
-[![Latest Stable Version](https://poser.pugx.org/josantonius/algorithm/v/stable)](https://packagist.org/packages/josantonius/algorithm) [![Total Downloads](https://poser.pugx.org/josantonius/algorithm/downloads)](https://packagist.org/packages/josantonius/algorithm) [![Latest Unstable Version](https://poser.pugx.org/josantonius/algorithm/v/unstable)](https://packagist.org/packages/josantonius/algorithm) [![Travis](https://travis-ci.org/Josantonius/PHP-Algorithm.svg)](https://travis-ci.org/Josantonius/PHP-Algorithm) [![License](https://poser.pugx.org/josantonius/algorithm/license)](https://packagist.org/packages/josantonius/algorithm) [![Codacy Badge](https://www.codacy.com/project/badge/0c4e0d2297414c09949f369226a6ba80)](https://www.codacy.com/app/Josantonius/PHP-Algorithm) [![CodeCov](https://codecov.io/gh/Josantonius/PHP-Algorithm/branch/master/graph/badge.svg)](https://codecov.io/gh/Josantonius/PHP-Algorithm)
+[![Latest Stable Version](https://poser.pugx.org/josantonius/Algorithm/v/stable)](https://packagist.org/packages/josantonius/Algorithm) [![Latest Unstable Version](https://poser.pugx.org/josantonius/Algorithm/v/unstable)](https://packagist.org/packages/josantonius/Algorithm) [![License](https://poser.pugx.org/josantonius/Algorithm/license)](https://packagist.org/packages/josantonius/Algorithm) [![Codacy Badge](https://www.codacy.com/project/badge/0c4e0d2297414c09949f369226a6ba80)](https://www.codacy.com/app/Josantonius/PHP-Algorithm) [![Total Downloads](https://poser.pugx.org/josantonius/Algorithm/downloads)](https://packagist.org/packages/josantonius/Algorithm) [![Travis](https://travis-ci.org/Josantonius/PHP-Algorithm.svg)](https://travis-ci.org/Josantonius/PHP-Algorithm) [![PSR2](https://img.shields.io/badge/PSR-2-1abc9c.svg)](http://www.php-fig.org/psr/psr-2/) [![PSR4](https://img.shields.io/badge/PSR-4-9b59b6.svg)](http://www.php-fig.org/psr/psr-4/) [![CodeCov](https://codecov.io/gh/Josantonius/PHP-Algorithm/branch/master/graph/badge.svg)](https://codecov.io/gh/Josantonius/PHP-Algorithm)
 
 [English version](README.md)
 
@@ -8,8 +8,8 @@ Clase con algoritmos para resolver y mostrar secuencias matemáticas.
 
 ---
 
-- [Instalación](#instalación)
 - [Requisitos](#requisitos)
+- [Instalación](#instalación)
 - [Cómo empezar y ejemplos](#cómo-empezar-y-ejemplos)
 - [Métodos disponibles](#métodos-disponibles)
 - [Uso](#uso)
@@ -22,15 +22,19 @@ Clase con algoritmos para resolver y mostrar secuencias matemáticas.
 
 ---
 
+### Requisitos
+
+Esta clase es soportada por versiones de `PHP 5.6` o superiores y es compatible con versiones de `HHVM 3.0` o superiores.
+
 ### Instalación 
 
-La mejor forma de instalar esta extensión es a través de [composer](http://getcomposer.org/download/).
+La mejor forma de instalar esta extensión es a través de [Composer](http://getcomposer.org/download/).
 
-Para instalar PHP Algorithm library, simplemente escribe:
+Para instalar `PHP Algorithm library`, simplemente escribe:
 
     $ composer require Josantonius/Algorithm
 
-El comando anterior sólo instalará los archivos necesarios, si prefieres descargar todo el código fuente (incluyendo tests, directorio vendor, excepciones no utilizadas, documentos...) puedes utilizar:
+El comando anterior sólo instalará los archivos necesarios, si prefieres descargar todo el código fuente puedes utilizar:
 
     $ composer require Josantonius/Algorithm --prefer-source
 
@@ -38,19 +42,30 @@ También puedes clonar el repositorio completo con Git:
 
 	$ git clone https://github.com/Josantonius/PHP-Algorithm.git
 
-### Requisitos
+Or install it manually:
 
-Esta clase es soportada por versiones de PHP 5.6 o superiores y es compatible con versiones de HHVM 3.0 o superiores.
+**--** Download [Algorithm.php](https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php):
+
+    $ wget https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php
 
 ### Cómo empezar y ejemplos
 
-Para utilizar esta clase, simplemente:
+Para utilizar esta clase con `Composer`:
 
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
 use Josantonius\Algorithm\Algorithm;
 ```
+
+Si la instalaste `manualmente`, utiliza:
+
+```php
+require_once __DIR__ . '/Algorithm.php';
+
+use Josantonius\Algorithm\Algorithm;
+```
+
 ### Métodos disponibles
 
 Métodos disponibles en esta clase:
@@ -59,7 +74,7 @@ Métodos disponibles en esta clase:
 Algorithm::lookAndSay($lastSequence, $maxLines);
 ```
 
-Print `Look-and-Say` sequence.
+Print "Look-and-Say" sequence.
 
 | Atributo | Descripción | Tipo | Requerido | Predeterminado
 | --- | --- | --- | --- | --- |

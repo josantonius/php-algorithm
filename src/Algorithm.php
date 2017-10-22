@@ -64,7 +64,6 @@ class Algorithm
                 }
 
                 $newSecuence .= $counter . $value;
-
                 $counter = 1;
             }
 
