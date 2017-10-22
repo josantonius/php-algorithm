@@ -72,18 +72,18 @@ Métodos disponibles en esta clase:
 
 `lookAndSay()`
 
-~ Imprimir secuencia "Look-and-Say".
+Imprimir secuencia "Look-and-Say".
 
-    ```php
-    Algorithm::lookAndSay($lastSequence, $maxLines);
-    ```
+```php
+Algorithm::lookAndSay($lastSequence, $maxLines);
+```
 
-    | Atributo | Descripción | Tipo | Requerido | Predeterminado
-    | --- | --- | --- | --- | --- |
-    | $lastSequence | Valor inicial para iniciar la secuencia | int | No | 1 |
-    | $maxLines | Número máximo de líneas a mostrar | int | No | 15 |
+| Atributo | Descripción | Tipo | Requerido | Predeterminado
+| --- | --- | --- | --- | --- |
+| $lastSequence | Valor inicial para iniciar la secuencia | int | No | 1 |
+| $maxLines | Número máximo de líneas a mostrar | int | No | 15 |
 
-    **# Return** (string) → Secuencia.
+**# Return** (string) → Secuencia.
 
 ### Uso
 
