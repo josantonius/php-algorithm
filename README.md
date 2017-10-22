@@ -70,9 +70,7 @@ use Josantonius\Algorithm\Algorithm;
 
 Available methods in this class:
 
-`lookAndSay()`
-
-Print "Look-and-Say" sequence.
+`lookAndSay() - Print "Look-and-Say" sequence`
 
 ```php
 Algorithm::lookAndSay($lastSequence, $maxLines);
@@ -95,7 +93,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 use Josantonius\Algorithm\Algorithm;
 
-Algorithm::lookAndSay();
+echo Algorithm::lookAndSay();
 
 /*
 1
@@ -115,7 +113,7 @@ Algorithm::lookAndSay();
 311311222113111231131112132112311321322112111312211312111322212311322113212221
 */
 
-Algorithm::lookAndSay(22, 5);
+echo Algorithm::lookAndSay(22, 5);
 
 /*
 22
