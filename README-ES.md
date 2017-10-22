@@ -68,9 +68,7 @@ use Josantonius\Algorithm\Algorithm;
 
 ### Métodos disponibles
 
-Métodos disponibles en esta clase:
-
-`lookAndSay() - Imprimir secuencia "Look-and-Say"`
+[`lookAndSay()`] Imprimir secuencia "Look-and-Say":
 
 ```php
 Algorithm::lookAndSay($lastSequence, $maxLines);
