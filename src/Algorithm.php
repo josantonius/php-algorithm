@@ -3,7 +3,7 @@
  * Class with algorithms to solve and display mathematical sequences.
  *
  * @package   Josantonius\Algorithm
- * @author    Josantonius hello@josantonius.com
+ * @author    Josantonius - hello@josantonius.com
  * @copyright 2017 (c) Josantonius - PHP-Algorithm
  * @license   https://opensource.org/licenses/MIT - The MIT License (MIT)
  * @link      https://github.com/Josantonius/PHP-Algorithm
@@ -48,12 +48,12 @@ class Algorithm
         }
 
         for ($i = 0; $i < $maxLines; $i++) {
-            self::$lookAndSay .= $lastSequence . "\n";
-
             $counter     = 1;
             $sequence    = str_split($lastSequence);
             $newSecuence = '';
 
+            self::$lookAndSay .= $lastSequence . "\n";
+            
             foreach ($sequence as $key => $value) {
                 $index   = ($key + 1);
                 $nextVal = isset($sequence[$index]) ? $sequence[$index] : 0;
