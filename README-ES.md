@@ -44,7 +44,7 @@ También puedes clonar el repositorio completo con Git:
 
 Or install it manually:
 
-**·** Download [Algorithm.php](https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php):
+**-** Download [Algorithm.php](https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php):
 
     $ wget https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php
 
@@ -70,18 +70,20 @@ use Josantonius\Algorithm\Algorithm;
 
 Métodos disponibles en esta clase:
 
-**·** `Imprimir secuencia "Look-and-Say".`
+`lookAndSay()`
 
-```php
-Algorithm::lookAndSay($lastSequence, $maxLines);
-```
+~ Imprimir secuencia "Look-and-Say".
 
-| Atributo | Descripción | Tipo | Requerido | Predeterminado
-| --- | --- | --- | --- | --- |
-| $lastSequence | Valor inicial para iniciar la secuencia | int | No | 1 |
-| $maxLines | Número máximo de líneas a mostrar | int | No | 15 |
+    ```php
+    Algorithm::lookAndSay($lastSequence, $maxLines);
+    ```
 
-**# Return** (string) → Secuencia.
+    | Atributo | Descripción | Tipo | Requerido | Predeterminado
+    | --- | --- | --- | --- | --- |
+    | $lastSequence | Valor inicial para iniciar la secuencia | int | No | 1 |
+    | $maxLines | Número máximo de líneas a mostrar | int | No | 15 |
+
+    **# Return** (string) → Secuencia.
 
 ### Uso
 
