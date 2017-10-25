@@ -29,7 +29,6 @@ final class AlgorithmTest extends TestCase
      */
     protected $Algorithm;
 
-
     /**
      * Setup.
      *
