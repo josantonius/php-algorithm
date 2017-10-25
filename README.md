@@ -34,15 +34,15 @@ To install `PHP Algorithm class`, simply:
 
     $ composer require Josantonius/Algorithm
 
-The previous command will only install the necessary files, if you prefer to download the entire source code you can use:
+The previous command will only install the necessary files, if you prefer to **download the entire source code** you can use:
 
     $ composer require Josantonius/Algorithm --prefer-source
 
-You can also clone the complete repository with Git:
+You can also **clone the complete repository** with Git:
 
 	$ git clone https://github.com/Josantonius/PHP-Algorithm.git
 
-Or install it manually:
+Or **install it manually**:
 
 [Download Algorithm.php](https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php):
 
@@ -58,7 +58,7 @@ Available methods in this class:
 Algorithm::lookAndSay($lastSequence, $maxLines);
 ```
 
-| Atttribute | Description | Type | Required | Default
+| Attribute | Description | Type | Required | Default
 | --- | --- | --- | --- | --- |
 | $lastSequence | Initial value to start the sequence | int | No | 1 |
 | $maxLines | Maximum lines number to show | int | No | 15 |
@@ -135,7 +135,7 @@ Run unit tests with [PHPUnit](https://phpunit.de/):
 
     $ composer phpunit
 
-Run PSR2 code standard tests with [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer):
+Run [PSR2](http://www.php-fig.org/psr/psr-2/) code standard tests with [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer):
 
     $ composer phpcs
 

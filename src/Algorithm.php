@@ -2,7 +2,6 @@
 /**
  * Class with algorithms to solve and display mathematical sequences.
  *
- * @package   Josantonius\Algorithm
  * @author    Josantonius - hello@josantonius.com
  * @copyright 2017 (c) Josantonius - PHP-Algorithm
  * @license   https://opensource.org/licenses/MIT - The MIT License (MIT)

@@ -34,17 +34,17 @@ Para instalar `PHP Algorithm library`, simplemente escribe:
 
     $ composer require Josantonius/Algorithm
 
-El comando anterior sólo instalará los archivos necesarios, si prefieres descargar todo el código fuente puedes utilizar:
+El comando anterior sólo instalará los archivos necesarios, si prefieres **descargar todo el código fuente** puedes utilizar:
 
     $ composer require Josantonius/Algorithm --prefer-source
 
-También puedes clonar el repositorio completo con Git:
+También puedes **clonar el repositorio** completo con Git:
 
 	$ git clone https://github.com/Josantonius/PHP-Algorithm.git
 
-Or install it manually:
+O **instalarlo manualmente**:
 
-[Download Algorithm.php](https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php):
+[Descargar Algorithm.php](https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php):
 
     $ wget https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php
 
@@ -121,7 +121,7 @@ echo Algorithm::lookAndSay(22, 5);
 
 ### Tests 
 
-Para ejecutar las [pruebas](tests) simplemente:
+Para ejecutar las [pruebas](tests) necesitarás [Composer](http://getcomposer.org/download/) y seguir los siguientes pasos:
 
     $ git clone https://github.com/Josantonius/PHP-Algorithm.git
     
@@ -129,11 +129,11 @@ Para ejecutar las [pruebas](tests) simplemente:
 
     $ composer install
 
-Ejecutar pruebas unitarias con PHPUnit:
+Ejecutar pruebas unitarias con [PHPUnit](https://phpunit.de/):
 
     $ composer phpunit
 
-Ejecutar pruebas de estándares de código PSR2 con PHPCS:
+Ejecutar pruebas de estándares de código [PSR2](http://www.php-fig.org/psr/psr-2/) con [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer):
 
     $ composer phpcs
 

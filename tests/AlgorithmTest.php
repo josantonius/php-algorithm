@@ -2,8 +2,7 @@
 /**
  * Class with algorithms to solve and display mathematical sequences.
  *
- * @package   Josantonius\Algorithm
- * @author    Josantonius hello@josantonius.com
+ * @author    Josantonius <hello@josantonius.com>
  * @copyright 2017 (c) Josantonius - PHP-Algorithm
  * @license   https://opensource.org/licenses/MIT - The MIT License (MIT)
  * @link      https://github.com/Josantonius/PHP-Algorithm
@@ -21,7 +20,6 @@ use PHPUnit\Framework\TestCase;
  */
 final class AlgorithmTest extends TestCase
 {
-
     /**
      * Algorithm object.
      *
@@ -30,6 +28,7 @@ final class AlgorithmTest extends TestCase
      * @var object
      */
     protected $Algorithm;
+
 
     /**
      * Setup.
@@ -52,7 +51,7 @@ final class AlgorithmTest extends TestCase
      */
     public function testLookAndSay()
     {
-        $str = $this->Algorithm->lookAndSay();
+        $str = $this->Algorithm::lookAndSay();
 
         $this->assertInternalType('string', $str);
 
@@ -68,7 +67,7 @@ final class AlgorithmTest extends TestCase
      */
     public function testLookAndSayCustom()
     {
-        $str = $this->Algorithm->lookAndSay(8, 15);
+        $str = $this->Algorithm::lookAndSay(8, 15);
 
         $this->assertInternalType('string', $str);
 
@@ -84,8 +83,7 @@ final class AlgorithmTest extends TestCase
      */
     public function testSequenceError()
     {
-
-        $this->assertFalse($this->Algorithm->lookAndSay(-1, 15));
+        $this->assertFalse($this->Algorithm::lookAndSay(-1, 15));
     }
 
     /**
@@ -95,7 +93,6 @@ final class AlgorithmTest extends TestCase
      */
     public function testLineLimitsError()
     {
-
-        $this->assertFalse($this->Algorithm->lookAndSay(1, -15));
+        $this->assertFalse($this->Algorithm::lookAndSay(1, -15));
     }
 }
