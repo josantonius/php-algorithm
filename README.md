@@ -24,7 +24,7 @@ Class with algorithms to solve and display mathematical sequences.
 
 ## Requirements
 
-This class is supported by `PHP versions 5.6` or higher and is compatible with `HHVM versions 3.0` or higher.
+This class is supported by `PHP versions 5.6` or higher and is compatible with `HHVM versions 3.0` or higher. 
 
 ## Installation
 
