@@ -52,7 +52,7 @@ Or **install it manually**:
 
 Available methods in this class:
 
-### Print "Look-and-Say" sequence:
+### - Print "Look-and-Say" sequence:
 
 ```php
 Algorithm::lookAndSay($lastSequence, $maxLines);

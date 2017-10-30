@@ -50,7 +50,7 @@ O **instalarlo manualmente**:
 
 ## Métodos disponibles
 
-### Imprimir secuencia "Look-and-Say":
+### - Imprimir secuencia "Look-and-Say":
 
 ```php
 Algorithm::lookAndSay($lastSequence, $maxLines);
