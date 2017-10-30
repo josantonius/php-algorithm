@@ -24,13 +24,13 @@ Class with algorithms to solve and display mathematical sequences.
 
 ## Requirements
 
-This class is supported by `PHP versions 5.6` or higher and is compatible with `HHVM versions 3.0` or higher. 
+This class is supported by **PHP versions 5.6** or higher and is compatible with **HHVM versions 3.0** or higher. 
 
 ## Installation
 
 The preferred way to install this extension is through [Composer](http://getcomposer.org/download/).
 
-To install `PHP Algorithm class`, simply:
+To install **PHP Algorithm class**, simply:
 
     $ composer require Josantonius/Algorithm
 
@@ -52,7 +52,7 @@ Or **install it manually**:
 
 Available methods in this class:
 
-**`Print "Look-and-Say" sequence:`**
+### Print "Look-and-Say" sequence:
 
 ```php
 Algorithm::lookAndSay($lastSequence, $maxLines);
@@ -67,7 +67,7 @@ Algorithm::lookAndSay($lastSequence, $maxLines);
 
 ## Quick Start
 
-To use this class with `Composer`:
+To use this class with **Composer**:
 
 ```php
 require __DIR__ . '/vendor/autoload.php';
@@ -75,7 +75,7 @@ require __DIR__ . '/vendor/autoload.php';
 use Josantonius\Algorithm\Algorithm;
 ```
 
-Or If you installed it `manually`, use it:
+Or If you installed it **manually**, use it:
 
 ```php
 require_once __DIR__ . '/Algorithm.php';
