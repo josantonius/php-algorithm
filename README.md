@@ -22,11 +22,11 @@ Class with algorithms to solve and display mathematical sequences.
 
 ---
 
-### Requirements
+## Requirements
 
 This class is supported by `PHP versions 5.6` or higher and is compatible with `HHVM versions 3.0` or higher.
 
-### Installation
+## Installation
 
 The preferred way to install this extension is through [Composer](http://getcomposer.org/download/).
 
@@ -48,11 +48,11 @@ Or **install it manually**:
 
     $ wget https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php
 
-### Available Methods
+## Available Methods
 
 Available methods in this class:
 
-`Print "Look-and-Say" sequence:`
+**`Print "Look-and-Say" sequence:`**
 
 ```php
 Algorithm::lookAndSay($lastSequence, $maxLines);
@@ -65,7 +65,7 @@ Algorithm::lookAndSay($lastSequence, $maxLines);
 
 **# Return** (string) → Sequence.
 
-### Quick Start
+## Quick Start
 
 To use this class with `Composer`:
 
@@ -83,7 +83,7 @@ require_once __DIR__ . '/Algorithm.php';
 use Josantonius\Algorithm\Algorithm;
 ```
 
-### Usage
+## Usage
 
 Example of use for this class:
 
@@ -121,7 +121,7 @@ echo Algorithm::lookAndSay(22, 5);
 */
 ```
 
-### Tests 
+## Tests 
 
 To run [tests](tests) you just need [composer](http://getcomposer.org/download/) and to execute the following:
 
@@ -143,12 +143,12 @@ Run all previous tests:
 
     $ composer tests
 
-### ☑ TODO
+## ☑ TODO
 
 - [x] Create tests
 - [x] Improve documentation
 
-### Contribute
+## Contribute
 
 1. Check for open issues or open a new issue to start a discussion around a bug or feature.
 1. Fork the repository on GitHub to start making your changes.
@@ -158,15 +158,15 @@ Run all previous tests:
 
 This is intended for large and long-lived objects.
 
-### Repository
+## Repository
 
 All files in this repository were created and uploaded automatically with [Reposgit Creator](https://github.com/Josantonius/BASH-Reposgit).
 
-### License
+## License
 
 This project is licensed under **MIT license**. See the [LICENSE](LICENSE) file for more info.
 
-### Copyright
+## Copyright
 
 2017 Josantonius, [josantonius.com](https://josantonius.com/)
 
