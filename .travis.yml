@@ -32,7 +32,6 @@ before_script:
   - travis_retry composer install --no-interaction --prefer-source
 
 script:
-  - phpcbf src,tests
   - phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php')
   - phpmd src,tests text ./phpmd.xml
   - phpunit
