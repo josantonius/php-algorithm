@@ -19,14 +19,13 @@ php:
   - 5.6
   - 7.0
   - 7.1
-  - 7.2
   - hhvm
   - nightly
 
 matrix:
   fast_finish: true
   include:
-    - php: 7.1
+    - php: 7.2
       env: VALIDATE=CODE
 
   allow_failures:
