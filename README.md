@@ -166,7 +166,7 @@ If you would like to help, please take a look at the list of
   This will also install the [dev dependencies](https://getcomposer.org/doc/03-cli.md#install).
 * Run the command `composer fix` to excute code standard fixers.
 * Run the [tests](#tests).
-* Create a `branch`, `commit`, `push` and send me a
+* Create a **branch**, **commit**, **push** and send me a
   [pull request](https://help.github.com/articles/using-pull-requests).
 
 ## Repository
