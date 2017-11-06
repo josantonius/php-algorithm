@@ -2,9 +2,8 @@
 /**
  * Class with algorithms to solve and display mathematical sequences.
  *
- * @author    Josantonius <hello@josantonius.com>
- * @copyright 2017 (c) Josantonius - PHP-Algorithm
  * @license   https://opensource.org/licenses/MIT - The MIT License (MIT)
+ *
  * @link      https://github.com/Josantonius/PHP-Algorithm
  * @since     1.0.0
  **/
@@ -24,8 +23,6 @@ final class AlgorithmTest extends TestCase
      * Setup.
      *
      * @since 1.1.4
-     *
-     * @return void
      */
     public function setUp()
     {

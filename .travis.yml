@@ -2,6 +2,10 @@ language: php
 
 sudo: false
 
+cache:
+  directories:
+    - $HOME/.composer/cache
+
 dist: trusty
 
 branches:
@@ -23,7 +27,7 @@ matrix:
   fast_finish: true
   include:
     - php: 7.1
-      env: PHPCS=PSR2
+      env: VALIDATE=CODE
 
   allow_failures:
     - php: nightly
@@ -36,10 +40,12 @@ before_script:
 script:
   - phpunit
   - |
-    if [[ "$PHPCS" ]] ; then
+    if [[ "$VALIDATE" ]] ; then
+      phpcbf src,tests
       phpcs --standard=phpcs.ruleset.xml $(find . -name '*.php')
+      phpmd src,tests text ./phpmd.xml
     fi
-    phpunit --coverage-clover=coverage.xml
+      phpunit --coverage-clover=coverage.xml
 
 after_success:
  - bash <(curl -s https://codecov.io/bash)
