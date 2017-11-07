@@ -2,12 +2,12 @@
 /**
  * Class with algorithms to solve and display mathematical sequences.
  *
+ * @author    Josantonius - hello@josantonius.com
+ * @copyright 2017 (c) Josantonius - PHP-Algorithm
  * @license   https://opensource.org/licenses/MIT - The MIT License (MIT)
- *
  * @link      https://github.com/Josantonius/PHP-Algorithm
  * @since     1.0.0
- **/
-
+ */
 namespace Josantonius\Algorithm;
 
 use PHPUnit\Framework\TestCase;

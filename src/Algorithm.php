@@ -7,8 +7,7 @@
  * @license   https://opensource.org/licenses/MIT - The MIT License (MIT)
  * @link      https://github.com/Josantonius/PHP-Algorithm
  * @since     1.0.0
- **/
-
+ */
 namespace Josantonius\Algorithm;
 
 /**
