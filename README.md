@@ -157,7 +157,7 @@ Run all previous tests:
 ## Contribute
 
 If you would like to help, please take a look at the list of
-[issues](issues) or the [To Do](#-todo) checklist.
+[issues](https://github.com/Josantonius/PHP-Algorithm/issues) or the [To Do](#-todo) checklist.
 
 **Pull requests**
 

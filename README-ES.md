@@ -148,14 +148,14 @@ Ejecutar todas las pruebas anteriores:
 ## ☑ Tareas pendientes
 
 - [ ] Añadir nueva funcionalidad
-- [ ] Mejorar pruebas.
+- [ ] Mejorar pruebas
 - [ ] Mejorar documentación
 - [ ] Refactorizar código
 
 ## Contribuir
 
 Si deseas colaborar, puedes echar un vistazo a la lista de
-[issues](issues) o [tareas pendientes](#-tareas-pendientes).
+[issues](https://github.com/Josantonius/PHP-Algorithm/issues) o [tareas pendientes](#-tareas-pendientes).
 
 **Pull requests**
 
