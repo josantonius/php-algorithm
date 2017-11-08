@@ -20,7 +20,7 @@ final class AlgorithmTest extends TestCase
     /**
      * Algorithm instance.
      *
-     * @since 1.1.6
+     * @since 1.1.5
      *
      * @var object
      */
