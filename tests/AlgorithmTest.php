@@ -18,11 +18,32 @@ use PHPUnit\Framework\TestCase;
 final class AlgorithmTest extends TestCase
 {
     /**
+     * Algorithm instance.
+     *
+     * @since 1.1.6
+     *
+     * @var object
+     */
+    protected $Algorithm;
+
+    /**
+     * Set up.
+     *
+     * @since 1.1.5
+     */
+    public function setUp()
+    {
+        parent::setUp();
+
+        $this->Algorithm = new Algorithm;
+    }
+
+    /**
      * Show 15 lines of the Look-and-Say sequence starting with 1.
      */
     public function testLookAndSay()
     {
-        $str = Algorithm::lookAndSay();
+        $str = $this->Algorithm->lookAndSay();
 
         $this->assertInternalType('string', $str);
 
@@ -36,7 +57,7 @@ final class AlgorithmTest extends TestCase
      */
     public function testLookAndSayCustom()
     {
-        $str = Algorithm::lookAndSay(8, 15);
+        $str = $this->Algorithm->lookAndSay(8, 15);
 
         $this->assertInternalType('string', $str);
 
@@ -50,7 +71,7 @@ final class AlgorithmTest extends TestCase
      */
     public function testSequenceError()
     {
-        $this->assertFalse(Algorithm::lookAndSay(-1, 15));
+        $this->assertFalse($this->Algorithm->lookAndSay(-1, 15));
     }
 
     /**
@@ -58,6 +79,6 @@ final class AlgorithmTest extends TestCase
      */
     public function testLineLimitsError()
     {
-        $this->assertFalse(Algorithm::lookAndSay(1, -15));
+        $this->assertFalse($this->Algorithm->lookAndSay(1, -15));
     }
 }
