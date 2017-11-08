@@ -2,37 +2,23 @@
 /**
  * Class with algorithms to solve and display mathematical sequences.
  *
- * @author    Josantonius - hello@josantonius.com
+ * @author    Josantonius <hello@josantonius.com>
  * @copyright 2017 (c) Josantonius - PHP-Algorithm
  * @license   https://opensource.org/licenses/MIT - The MIT License (MIT)
  * @link      https://github.com/Josantonius/PHP-Algorithm
- * @since     1.0.0
+ * @since     1.1.3
  */
 namespace Josantonius\Algorithm;
 
 use PHPUnit\Framework\TestCase;
 
 /**
- * Tests class for Algorithm library.
- *
- * @since 1.1.3
+ * Tests class for PHP-Algorithm class.
  */
 final class AlgorithmTest extends TestCase
 {
     /**
-     * Setup.
-     *
-     * @since 1.1.4
-     */
-    public function setUp()
-    {
-        parent::setUp();
-    }
-
-    /**
      * Show 15 lines of the Look-and-Say sequence starting with 1.
-     *
-     * @since 1.1.3
      */
     public function testLookAndSay()
     {
@@ -47,8 +33,6 @@ final class AlgorithmTest extends TestCase
 
     /**
      * Customize initial value and lines to show the Look-and-Say sequence.
-     *
-     * @since 1.1.3
      */
     public function testLookAndSayCustom()
     {
@@ -63,8 +47,6 @@ final class AlgorithmTest extends TestCase
 
     /**
      * Failed to use negative values in sequence.
-     *
-     * @since 1.1.3
      */
     public function testSequenceError()
     {
@@ -73,8 +55,6 @@ final class AlgorithmTest extends TestCase
 
     /**
      * Failed to use negative values in line limits.
-     *
-     * @since 1.1.3
      */
     public function testLineLimitsError()
     {

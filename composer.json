@@ -1,6 +1,5 @@
 {
     "name":        "josantonius/algorithm",
-    "version":     "1.1.4",
     "type":        "library",
     "description": "Class with algorithms to solve and display mathematical sequences.",
     "keywords": [
@@ -25,10 +24,6 @@
         "forum":  "http://stackoverflow.com/tags/josantonius/php-algorithm",
         "source": "https://github.com/josantonius/php-algorithm"
     },
-    "config": {
-        "preferred-install": "dist"
-    },
-    "minimum-stability": "stable",
     "require": {
         "php": "^5.6 || ^7.0"
     },

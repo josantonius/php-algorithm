@@ -2,7 +2,7 @@
 /**
  * Class with algorithms to solve and display mathematical sequences.
  *
- * @author    Josantonius - hello@josantonius.com
+ * @author    Josantonius <hello@josantonius.com>
  * @copyright 2017 (c) Josantonius - PHP-Algorithm
  * @license   https://opensource.org/licenses/MIT - The MIT License (MIT)
  * @link      https://github.com/Josantonius/PHP-Algorithm
@@ -10,11 +10,6 @@
  */
 namespace Josantonius\Algorithm;
 
-/**
- * Algorithm handler.
- *
- * @since 1.0.0
- */
 class Algorithm
 {
     /**
@@ -31,8 +26,6 @@ class Algorithm
      * rate of the number of numbers in a sequence known as Look-and-Say.
      * In this sequence, each term is obtained by grouping the same numbers
      * the previous one and reciting them.
-     *
-     * @since 1.0.0
      *
      * @param int $lastSequence → initial value to start the sequence
      * @param int $maxLines     → maximum lines number to show
