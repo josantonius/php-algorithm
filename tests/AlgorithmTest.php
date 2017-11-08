@@ -39,6 +39,17 @@ final class AlgorithmTest extends TestCase
     }
 
     /**
+     * Check if it is an instance of Algorithm.
+     *
+     * @since 1.1.5
+     */
+    public function testIsInstanceOfAlgorithm()
+    {
+        $actual = $this->Algorithm;
+        $this->assertInstanceOf('Josantonius\Algorithm\Algorithm', $actual);
+    }
+
+    /**
      * Show 15 lines of the Look-and-Say sequence starting with 1.
      */
     public function testLookAndSay()
