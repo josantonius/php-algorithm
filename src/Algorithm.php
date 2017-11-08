@@ -39,14 +39,14 @@ class Algorithm
         }
 
         for ($i = 0; $i < $maxLines; $i++) {
-            $counter     = 1;
-            $sequence    = str_split($lastSequence);
+            $counter = 1;
+            $sequence = str_split($lastSequence);
             $newSecuence = '';
 
             self::$lookAndSay .= $lastSequence . "\n";
-            
+
             foreach ($sequence as $key => $value) {
-                $index   = ($key + 1);
+                $index = ($key + 1);
                 $nextVal = isset($sequence[$index]) ? $sequence[$index] : 0;
 
                 if ($value === $nextVal) {
