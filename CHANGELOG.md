@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 1.1.5 - 2017-11-06
+## 1.1.5 - 2017-11-08
 
 * Implemented `PHP Mess Detector` to detect inconsistencies in code styles.
 

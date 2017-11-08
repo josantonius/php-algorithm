@@ -3,7 +3,7 @@ CHANGELOG.md export-ignore
 README.md export-ignore
 README-ES.md export-ignore
 phpcs.xml export-ignore
-phpunit.xml.dist export-ignore
+phpunit.xml export-ignore
 phpmd.xml export-ignore
 .travis.yml export-ignore
 .editorconfig export-ignore
