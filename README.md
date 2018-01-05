@@ -169,10 +169,6 @@ If you would like to help, please take a look at the list of
 * Create a **branch**, **commit**, **push** and send me a
   [pull request](https://help.github.com/articles/using-pull-requests).
 
-Thank you to all the people who already contributed!
-
-<a href="https://github.com/Josantonius/PHP-Algorithm/graphs/contributors"><img src="https://opencollective.com/josantonius/contributors.svg?width=890" /></a>
-
 ## Repository
 
 The file structure from this repository was created with [PHP-Skeleton](https://github.com/Josantonius/PHP-Skeleton).
