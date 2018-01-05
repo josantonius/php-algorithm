@@ -168,6 +168,10 @@ If you would like to help, please take a look at the list of
 * Run the [tests](#tests).
 * Create a **branch**, **commit**, **push** and send me a
   [pull request](https://help.github.com/articles/using-pull-requests).
+  
+[<img alt="Josantonius" src="https://avatars1.githubusercontent.com/u/18104336?v=4&s=117 width=117">](https://github.com/Josantonius) |
+:---:|
+[Josantonius](https://github.com/Josantonius)|
 
 ## Repository
 
