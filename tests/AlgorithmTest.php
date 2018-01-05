@@ -57,7 +57,7 @@ final class AlgorithmTest extends TestCase
     {
         $algorithm = $this->Algorithm;
 
-        $str = $Algorithm::lookAndSay();
+        $str = $algorithm::lookAndSay();
 
         $this->assertInternalType('string', $str);
 
@@ -73,7 +73,7 @@ final class AlgorithmTest extends TestCase
     {
         $algorithm = $this->Algorithm;
 
-        $str = $Algorithm::lookAndSay(8, 15);
+        $str = $algorithm::lookAndSay(8, 15);
 
         $this->assertInternalType('string', $str);
 
@@ -87,7 +87,7 @@ final class AlgorithmTest extends TestCase
     {
         $algorithm = $this->Algorithm;
 
-        $this->assertFalse($Algorithm::lookAndSay(-1, 15));
+        $this->assertFalse($algorithm::lookAndSay(-1, 15));
     }
 
     /**
@@ -97,6 +97,6 @@ final class AlgorithmTest extends TestCase
     {
         $algorithm = $this->Algorithm;
 
-        $this->assertFalse($Algorithm::lookAndSay(1, -15));
+        $this->assertFalse($algorithm::lookAndSay(1, -15));
     }
 }
