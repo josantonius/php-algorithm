@@ -55,7 +55,7 @@ final class AlgorithmTest extends TestCase
      */
     public function testLookAndSay()
     {
-        $Algorithm = $this->Algorithm;
+        $algorithm = $this->Algorithm;
 
         $str = $Algorithm::lookAndSay();
 
@@ -71,7 +71,7 @@ final class AlgorithmTest extends TestCase
      */
     public function testLookAndSayCustom()
     {
-        $Algorithm = $this->Algorithm;
+        $algorithm = $this->Algorithm;
 
         $str = $Algorithm::lookAndSay(8, 15);
 
@@ -85,7 +85,7 @@ final class AlgorithmTest extends TestCase
      */
     public function testSequenceError()
     {
-        $Algorithm = $this->Algorithm;
+        $algorithm = $this->Algorithm;
 
         $this->assertFalse($Algorithm::lookAndSay(-1, 15));
     }
@@ -95,7 +95,7 @@ final class AlgorithmTest extends TestCase
      */
     public function testLineLimitsError()
     {
-        $Algorithm = $this->Algorithm;
+        $algorithm = $this->Algorithm;
 
         $this->assertFalse($Algorithm::lookAndSay(1, -15));
     }
