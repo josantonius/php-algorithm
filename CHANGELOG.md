@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.1.6 - 2018-01-05
+
+* The tests were fixed.
+
+* Changes in documentation.
+
 ## 1.1.5 - 2017-11-08
 
 * Implemented `PHP Mess Detector` to detect inconsistencies in code styles.
@@ -71,17 +77,12 @@
 
 * Compatible only with PHP 7.0 or higher. In the next versions, the library will be modified to make it compatible with PHP 5.6 or higher.
 
-## 1.0.0 - 2017-01-21
-
 * Added `Josantonius\Algorithm\Algorithm` class.
 * Added `Josantonius\Algorithm\Algorithm::lookAndSay()` method.
-
-## 1.0.0 - 2017-01-21
 
 * Added `Josantonius\Algorithm\Exception\AlgorithmException` abstract class.
 * Added `Josantonius\Algorithm\Exception\AlgorithmException->__construct()` method.
 
-## 1.0.0 - 2017-01-21
 * Added `Josantonius\Algorithm\Tests\AlgorithmTest` class.
 * Added `Josantonius\Algorithm\Tests\AlgorithmTest::testLookAndSay()` method.
 * Added `Josantonius\Algorithm\Tests\AlgorithmTest::testLookAndSayCustom()` method.

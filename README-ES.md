@@ -150,7 +150,7 @@ Ejecutar todas las pruebas anteriores:
 - [ ] Añadir nueva funcionalidad
 - [ ] Mejorar pruebas
 - [ ] Mejorar documentación
-- [ ] Refactorizar código
+- [ ] Refactorizar código para las reglas de estilo de código deshabilitadas. Ver [phpmd.xml](https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/phpmd.xml) y [.php_cs.dist](https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/.php_cs.dist).
 
 ## Contribuir
 
@@ -177,7 +177,7 @@ Este proyecto está licenciado bajo **licencia MIT**. Consulta el archivo [LICEN
 
 ## Copyright
 
-2017 Josantonius, [josantonius.com](https://josantonius.com/)
+2017 - 2018 Josantonius, [josantonius.com](https://josantonius.com/)
 
 Si te ha resultado útil, házmelo saber :wink:
 

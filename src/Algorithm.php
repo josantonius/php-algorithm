@@ -3,7 +3,7 @@
  * Class with algorithms to solve and display mathematical sequences.
  *
  * @author    Josantonius <hello@josantonius.com>
- * @copyright 2017 (c) Josantonius - PHP-Algorithm
+ * @copyright 2017 - 2018 (c) Josantonius - PHP-Algorithm
  * @license   https://opensource.org/licenses/MIT - The MIT License (MIT)
  * @link      https://github.com/Josantonius/PHP-Algorithm
  * @since     1.0.0
@@ -48,12 +48,10 @@ class Algorithm
             foreach ($sequence as $key => $value) {
                 $index = ($key + 1);
                 $nextVal = isset($sequence[$index]) ? $sequence[$index] : 0;
-
                 if ($value === $nextVal) {
                     $counter++;
                     continue;
                 }
-
                 $newSecuence .= $counter . $value;
                 $counter = 1;
             }
