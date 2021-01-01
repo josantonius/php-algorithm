@@ -177,8 +177,8 @@ Este proyecto está licenciado bajo **licencia MIT**. Consulta el archivo [LICEN
 
 ## Copyright
 
-2017 - 2018 Josantonius, [josantonius.com](https://josantonius.com/)
+2017 - 2018 Josantonius, [josantonius.dev](https://josantonius.dev/)
 
 Si te ha resultado útil, házmelo saber :wink:
 
-Puedes contactarme en [Twitter](https://twitter.com/Josantonius) o a través de mi [correo electrónico](mailto:hello@josantonius.com).
+Puedes contactarme en [Twitter](https://twitter.com/Josantonius) o a través de mi [correo electrónico](mailto:hello@josantonius.dev).
