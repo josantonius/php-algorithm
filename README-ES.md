@@ -177,7 +177,7 @@ Este proyecto está licenciado bajo **licencia MIT**. Consulta el archivo [LICEN
 
 ## Copyright
 
-2017 - 2018 Josantonius, [josantonius.dev](https://josantonius.dev/)
+2017 - 2021 Josantonius, [josantonius.dev](https://josantonius.dev/)
 
 Si te ha resultado útil, házmelo saber :wink:
 
