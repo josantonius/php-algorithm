@@ -1,6 +1,6 @@
 # PHP Algorithm class
 
-[![Latest Stable Version](https://poser.pugx.org/josantonius/Algorithm/v/stable)](https://packagist.org/packages/josantonius/Algorithm) [![Latest Unstable Version](https://poser.pugx.org/josantonius/Algorithm/v/unstable)](https://packagist.org/packages/josantonius/Algorithm) [![License](https://poser.pugx.org/josantonius/Algorithm/license)](LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3505aa3d827b48839fd3f6a2166dbbc6)](https://www.codacy.com/app/Josantonius/PHP-Algorithm?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Josantonius/PHP-Algorithm&amp;utm_campaign=Badge_Grade) [![Total Downloads](https://poser.pugx.org/josantonius/Algorithm/downloads)](https://packagist.org/packages/josantonius/Algorithm) [![Travis](https://travis-ci.org/Josantonius/PHP-Algorithm.svg)](https://travis-ci.org/Josantonius/PHP-Algorithm) [![PSR2](https://img.shields.io/badge/PSR-2-1abc9c.svg)](http://www.php-fig.org/psr/psr-2/) [![PSR4](https://img.shields.io/badge/PSR-4-9b59b6.svg)](http://www.php-fig.org/psr/psr-4/) [![CodeCov](https://codecov.io/gh/Josantonius/PHP-Algorithm/branch/master/graph/badge.svg)](https://codecov.io/gh/Josantonius/PHP-Algorithm)
+[![Latest Stable Version](https://poser.pugx.org/josantonius/Algorithm/v/stable)](https://packagist.org/packages/josantonius/Algorithm) [![Latest Unstable Version](https://poser.pugx.org/josantonius/Algorithm/v/unstable)](https://packagist.org/packages/josantonius/Algorithm) [![License](https://poser.pugx.org/josantonius/Algorithm/license)](LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3505aa3d827b48839fd3f6a2166dbbc6)](https://www.codacy.com/app/Josantonius/PHP-Algorithm?utm_source=github.com&utm_medium=referral&utm_content=Josantonius/PHP-Algorithm&utm_campaign=Badge_Grade) [![Total Downloads](https://poser.pugx.org/josantonius/Algorithm/downloads)](https://packagist.org/packages/josantonius/Algorithm) [![Travis](https://travis-ci.org/Josantonius/PHP-Algorithm.svg)](https://travis-ci.org/Josantonius/PHP-Algorithm) [![PSR2](https://img.shields.io/badge/PSR-2-1abc9c.svg)](http://www.php-fig.org/psr/psr-2/) [![PSR4](https://img.shields.io/badge/PSR-4-9b59b6.svg)](http://www.php-fig.org/psr/psr-4/) [![CodeCov](https://codecov.io/gh/Josantonius/PHP-Algorithm/branch/master/graph/badge.svg)](https://codecov.io/gh/Josantonius/PHP-Algorithm)
 
 [Versión en español](README-ES.md)
 
@@ -8,23 +8,23 @@ Class with algorithms to solve and display mathematical sequences.
 
 ---
 
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Available Methods](#available-methods)
-- [Quick Start](#quick-start)
-- [Usage](#usage)
-- [Tests](#tests)
-- [TODO](#-todo)
-- [Contribute](#contribute)
-- [Repository](#repository)
-- [License](#license)
-- [Copyright](#copyright)
+-   [Requirements](#requirements)
+-   [Installation](#installation)
+-   [Available Methods](#available-methods)
+-   [Quick Start](#quick-start)
+-   [Usage](#usage)
+-   [Tests](#tests)
+-   [TODO](#-todo)
+-   [Contribute](#contribute)
+-   [Repository](#repository)
+-   [License](#license)
+-   [Copyright](#copyright)
 
 ---
 
 ## Requirements
 
-This class is supported by **PHP versions 5.6** or higher and is compatible with **HHVM versions 3.0** or higher. 
+This class is supported by **PHP versions 5.6** or higher and is compatible with **HHVM versions 3.0** or higher...
 
 ## Installation
 
@@ -40,7 +40,7 @@ The previous command will only install the necessary files, if you prefer to **d
 
 You can also **clone the complete repository** with Git:
 
-	$ git clone https://github.com/Josantonius/PHP-Algorithm.git
+    $ git clone https://github.com/Josantonius/PHP-Algorithm.git
 
 Or **install it manually**:
 
@@ -58,10 +58,10 @@ Available methods in this class:
 Algorithm::lookAndSay($lastSequence, $maxLines);
 ```
 
-| Attribute | Description | Type | Required | Default
-| --- | --- | --- | --- | --- |
-| $lastSequence | Initial value to start the sequence | int | No | 1 |
-| $maxLines | Maximum lines number to show | int | No | 15 |
+| Attribute     | Description                         | Type | Required | Default |
+| ------------- | ----------------------------------- | ---- | -------- | ------- |
+| $lastSequence | Initial value to start the sequence | int  | No       | 1       |
+| $maxLines     | Maximum lines number to show        | int  | No       | 15      |
 
 **# Return** (string) → Sequence.
 
@@ -121,12 +121,12 @@ echo Algorithm::lookAndSay(22, 5);
 */
 ```
 
-## Tests 
+## Tests
 
 To run [tests](tests) you just need [composer](http://getcomposer.org/download/) and to execute the following:
 
     $ git clone https://github.com/Josantonius/PHP-Algorithm.git
-    
+
     $ cd PHP-Algorithm
 
     $ composer install
@@ -149,10 +149,10 @@ Run all previous tests:
 
 ## ☑ TODO
 
-- [ ] Add new feature.
-- [ ] Improve tests.
-- [ ] Improve documentation.
-- [ ] Refactor code for disabled code style rules. See [phpmd.xml](phpmd.xml) and [.php_cs.dist](.php_cs.dist).
+-   [ ] Add new feature.
+-   [ ] Improve tests.
+-   [ ] Improve documentation.
+-   [ ] Refactor code for disabled code style rules. See [phpmd.xml](phpmd.xml) and [.php_cs.dist](.php_cs.dist).
 
 ## Contribute
 
@@ -161,13 +161,13 @@ If you would like to help, please take a look at the list of
 
 **Pull requests**
 
-* [Fork and clone](https://help.github.com/articles/fork-a-repo).
-* Run the command `composer install` to install the dependencies.
-  This will also install the [dev dependencies](https://getcomposer.org/doc/03-cli.md#install).
-* Run the command `composer fix` to excute code standard fixers.
-* Run the [tests](#tests).
-* Create a **branch**, **commit**, **push** and send me a
-  [pull request](https://help.github.com/articles/using-pull-requests).
+-   [Fork and clone](https://help.github.com/articles/fork-a-repo).
+-   Run the command `composer install` to install the dependencies.
+    This will also install the [dev dependencies](https://getcomposer.org/doc/03-cli.md#install).
+-   Run the command `composer fix` to excute code standard fixers.
+-   Run the [tests](#tests).
+-   Create a **branch**, **commit**, **push** and send me a
+    [pull request](https://help.github.com/articles/using-pull-requests).
 
 ## Repository
 
