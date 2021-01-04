@@ -179,7 +179,7 @@ This project is licensed under **MIT license**. See the [LICENSE](LICENSE) file 
 
 ## Copyright
 
-2017 - 2021 Josantonius, [josantonius.dev](https://josantonius.dev/)
+2017-2021 Josantonius, [josantonius.dev](https://josantonius.dev/)
 
 If you find it useful, let me know :wink:
 
