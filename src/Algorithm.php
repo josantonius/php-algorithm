@@ -1,13 +1,15 @@
 <?php
+
 /**
  * Class with algorithms to solve and display mathematical sequences.
  *
- * @author    Josantonius <hello@josantonius.com>
- * @copyright 2017 - 2018 (c) Josantonius - PHP-Algorithm
+ * @author    Josantonius <hello@josantonius.dev>
+ * @copyright 2017 (c) Josantonius - php-algorithm
  * @license   https://opensource.org/licenses/MIT - The MIT License (MIT)
- * @link      https://github.com/Josantonius/PHP-Algorithm
+ * @link      https://github.com/Josantonius/php-algorithm
  * @since     1.0.0
  */
+
 namespace Josantonius\Algorithm;
 
 class Algorithm
@@ -39,24 +41,24 @@ class Algorithm
         }
 
         for ($i = 0; $i < $maxLines; $i++) {
-            $counter = 1;
-            $sequence = str_split($lastSequence);
-            $newSecuence = '';
+            $counter     = 1;
+            $sequence    = str_split($lastSequence);
+            $newSequence = '';
 
             self::$lookAndSay .= $lastSequence . "\n";
 
             foreach ($sequence as $key => $value) {
-                $index = ($key + 1);
+                $index   = ($key + 1);
                 $nextVal = isset($sequence[$index]) ? $sequence[$index] : 0;
                 if ($value === $nextVal) {
                     $counter++;
                     continue;
                 }
-                $newSecuence .= $counter . $value;
-                $counter = 1;
+                $newSequence .= $counter . $value;
+                $counter      = 1;
             }
 
-            return static::lookAndSay($newSecuence, ($maxLines - 1));
+            return static::lookAndSay($newSequence, ($maxLines - 1));
         }
 
         return self::$lookAndSay;

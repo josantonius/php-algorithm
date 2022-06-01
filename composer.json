@@ -1,6 +1,6 @@
 {
-    "name":        "josantonius/algorithm",
-    "type":        "library",
+    "name": "josantonius/algorithm",
+    "type": "library",
     "description": "Class with algorithms to solve and display mathematical sequences.",
     "keywords": [
         "Algorithms",
@@ -13,15 +13,15 @@
     "license": "MIT",
     "authors": [
         {
-            "name":     "Josantonius",
-            "email":    "hello@josantonius.com",
-            "homepage": "https://josantonius.com",
-            "role":     "Developer"
+            "name": "Josantonius",
+            "email": "hello@josantonius.dev",
+            "homepage": "https://josantonius.dev",
+            "role": "Developer"
         }
     ],
     "support": {
         "issues": "https://github.com/josantonius/php-algorithm/issues",
-        "forum":  "http://stackoverflow.com/tags/josantonius/php-algorithm",
+        "forum": "http://stackoverflow.com/tags/josantonius/php-algorithm",
         "source": "https://github.com/josantonius/php-algorithm"
     },
     "config": {

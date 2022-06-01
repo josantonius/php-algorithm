@@ -1,24 +1,27 @@
 # PHP Algorithm class
 
-[![Latest Stable Version](https://poser.pugx.org/josantonius/Algorithm/v/stable)](https://packagist.org/packages/josantonius/Algorithm) [![Latest Unstable Version](https://poser.pugx.org/josantonius/Algorithm/v/unstable)](https://packagist.org/packages/josantonius/Algorithm) [![License](https://poser.pugx.org/josantonius/Algorithm/license)](LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3505aa3d827b48839fd3f6a2166dbbc6)](https://www.codacy.com/app/Josantonius/PHP-Algorithm?utm_source=github.com&utm_medium=referral&utm_content=Josantonius/PHP-Algorithm&utm_campaign=Badge_Grade) [![Total Downloads](https://poser.pugx.org/josantonius/Algorithm/downloads)](https://packagist.org/packages/josantonius/Algorithm) [![Travis](https://travis-ci.org/Josantonius/PHP-Algorithm.svg)](https://travis-ci.org/Josantonius/PHP-Algorithm) [![PSR2](https://img.shields.io/badge/PSR-2-1abc9c.svg)](http://www.php-fig.org/psr/psr-2/) [![PSR4](https://img.shields.io/badge/PSR-4-9b59b6.svg)](http://www.php-fig.org/psr/psr-4/) [![CodeCov](https://codecov.io/gh/Josantonius/PHP-Algorithm/branch/master/graph/badge.svg)](https://codecov.io/gh/Josantonius/PHP-Algorithm)
+[![Latest Stable Version](https://poser.pugx.org/josantonius/Algorithm/v/stable)](https://packagist.org/packages/josantonius/algorithm)
+[![License](https://poser.pugx.org/josantonius/algorithm/license)](LICENSE)
+[![PSR2](https://img.shields.io/badge/PSR-2-1abc9c.svg)](http://www.php-fig.org/psr/psr-2/)
+[![PSR4](https://img.shields.io/badge/PSR-4-9b59b6.svg)](http://www.php-fig.org/psr/psr-4/)
+[![CodeCov](https://codecov.io/gh/josantonius/php-algorithm/branch/master/graph/badge.svg)](https://codecov.io/gh/josantonius/php-algorithm)
 
-[Versión en español](README-ES.md)
+**Translations**: [Español](.github/lang/es-ES/README.md)
 
 Class with algorithms to solve and display mathematical sequences.
 
 ---
 
--   [Requirements](#requirements)
--   [Installation](#installation)
--   [Available Methods](#available-methods)
--   [Quick Start](#quick-start)
--   [Usage](#usage)
--   [Tests](#tests)
--   [TODO](#-todo)
--   [Contribute](#contribute)
--   [Repository](#repository)
--   [License](#license)
--   [Copyright](#copyright)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Available Methods](#available-methods)
+- [Quick Start](#quick-start)
+- [Usage](#usage)
+- [Tests](#tests)
+- [Changelog](#changelog)
+- [Contribution](#contribution)
+- [Sponsor](#sponsor)
+- [License](#license)
 
 ---
 
@@ -32,27 +35,36 @@ The preferred way to install this extension is through [Composer](http://getcomp
 
 To install **PHP Algorithm class**, simply:
 
-    $ composer require Josantonius/Algorithm
+```console
+composer require josantonius/algorithm
+```
 
-The previous command will only install the necessary files, if you prefer to **download the entire source code** you can use:
+The previous command will only install the necessary files,
+if you prefer to **download the entire source code** you can use:
 
-    $ composer require Josantonius/Algorithm --prefer-source
+```console
+composer require josantonius/algorithm --prefer-source
+```
 
 You can also **clone the complete repository** with Git:
 
-    $ git clone https://github.com/Josantonius/PHP-Algorithm.git
+```console
+git clone https://github.com/josantonius/php-algorithm.git
+```
 
 Or **install it manually**:
 
-[Download Algorithm.php](https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php):
+[Download Algorithm.php](https://raw.githubusercontent.com/josantonius/php-algorithm/master/src/Algorithm.php):
 
-    $ wget https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/src/Algorithm.php
+```console
+wget https://raw.githubusercontent.com/josantonius/php-algorithm/master/src/Algorithm.php
+```
 
 ## Available Methods
 
 Available methods in this class:
 
-### - Print "Look-and-Say" sequence:
+### Print "Look-and-Say" sequence
 
 ```php
 Algorithm::lookAndSay($lastSequence, $maxLines);
@@ -125,64 +137,63 @@ echo Algorithm::lookAndSay(22, 5);
 
 To run [tests](tests) you just need [composer](http://getcomposer.org/download/) and to execute the following:
 
-    $ git clone https://github.com/Josantonius/PHP-Algorithm.git
+```console
+git clone https://github.com/josantonius/php-algorithm.git
+```
 
-    $ cd PHP-Algorithm
+```console
+cd php-algorithm
+```
 
-    $ composer install
+```console
+composer install
+```
 
 Run unit tests with [PHPUnit](https://phpunit.de/):
 
-    $ composer phpunit
+```console
+composer phpunit
+```
 
-Run [PSR2](http://www.php-fig.org/psr/psr-2/) code standard tests with [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer):
+Run [PSR2](http://www.php-fig.org/psr/psr-2/) code standard tests
+with [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer):
 
-    $ composer phpcs
+```console
+composer phpcs
+```
 
 Run [PHP Mess Detector](https://phpmd.org/) tests to detect inconsistencies in code style:
 
-    $ composer phpmd
+```console
+composer phpmd
+```
 
 Run all previous tests:
 
-    $ composer tests
+```console
+composer tests
+```
 
-## ☑ TODO
+## Changelog
 
--   [ ] Add new feature.
--   [ ] Improve tests.
--   [ ] Improve documentation.
--   [ ] Refactor code for disabled code style rules. See [phpmd.xml](phpmd.xml) and [.php_cs.dist](.php_cs.dist).
+Detailed changes for each release are documented in the
+[release notes](https://github.com/josantonius/php-algorithm/releases).
 
-## Contribute
+## Contribution
 
-If you would like to help, please take a look at the list of
-[issues](https://github.com/Josantonius/PHP-Algorithm/issues) or the [To Do](#-todo) checklist.
+Please make sure to read the [Contributing Guide](.github/CONTRIBUTING.md),
+before making a [pull request](.github/CONTRIBUTING.md#pull-requests),
+start a [discussion](.github/CONTRIBUTING.md#discussions) or
+report a [issue](.github/CONTRIBUTING.md#issues).
 
-**Pull requests**
+Thanks to all [contributors](https://github.com/josantonius/php-algorithm/graphs/contributors) to this project! :heart:
 
--   [Fork and clone](https://help.github.com/articles/fork-a-repo).
--   Run the command `composer install` to install the dependencies.
-    This will also install the [dev dependencies](https://getcomposer.org/doc/03-cli.md#install).
--   Run the command `composer fix` to excute code standard fixers.
--   Run the [tests](#tests).
--   Create a **branch**, **commit**, **push** and send me a
-    [pull request](https://help.github.com/articles/using-pull-requests).
+## Sponsor
 
-## Repository
-
-The file structure from this repository was created with [PHP-Skeleton](https://github.com/Josantonius/PHP-Skeleton).
+If you found this interesting, [you can become my sponsor!](https://github.com/josantonius#sponsor) :blush:
 
 ## License
 
-This project is licensed under **MIT license**. See the [LICENSE](LICENSE) file for more info.
+This project is licensed under the [MIT License](LICENSE).
 
-## Copyright
-
-2017 - 2021 Josantonius, [josantonius.dev](https://josantonius.dev/)
-
-If you find it useful, let me know :wink:
-
-You can contact me on [Twitter](https://twitter.com/Josantonius) or through my [email](mailto:hello@josantonius.dev).
-
-
+Copyright © 2017-2022, [Josantonius](https://github.com/josantonius#contact)
